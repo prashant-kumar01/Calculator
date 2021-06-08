@@ -1,0 +1,73 @@
+body{
+  width:100vw;
+  height:100vh;
+  overflow: hidden;
+  background-color: ghostwhite;
+}
+
+.cal{
+  background-color: black;
+  width:35%;
+  position: absolute;
+  height:60%;
+  left:32%;
+  top:15%;
+  box-shadow: 0 0 10px grey;
+  border-radius: 15px;
+  transition: box-shadow 1s;
+}
+table{
+  width:100%;
+  height:80%;
+}
+input{
+  width:100%;
+  border-radius: 10px;
+  border-width: thin;
+  border-color: #de6834;
+}
+.sizer{
+  width:95%;
+  height:95%;
+  font-size: 180%;
+  box-shadow: 0 0 8px lightgrey;
+}
+.equal{
+  height:100%;
+  background-color: #ff9900;
+  color: black;
+}
+.operators{
+  background-color: #ffcc80;
+  color: black;
+}
+/*a{
+  text-decoration: none;
+  color:darkslategrey;
+}
+a:hover{
+  text-decoration: none;
+  color:darkslategrey;
+}
+p{
+  position: absolute;
+  top:85%;
+  left:50%;
+  transition: transform 0.7s ease-in-out;
+}
+p:hover{
+  transform: scale(1.1,1.1);
+}
+*/
+@media (max-width:1000px){
+  .cal{
+    width:70%;
+    left:15%;
+  }
+}
+@media (max-width:600px){
+  .cal{
+    width:90%;
+    left:5%;
+  }
+}
