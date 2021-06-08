@@ -41,24 +41,6 @@ input{
   background-color: #ffcc80;
   color: black;
 }
-/*a{
-  text-decoration: none;
-  color:darkslategrey;
-}
-a:hover{
-  text-decoration: none;
-  color:darkslategrey;
-}
-p{
-  position: absolute;
-  top:85%;
-  left:50%;
-  transition: transform 0.7s ease-in-out;
-}
-p:hover{
-  transform: scale(1.1,1.1);
-}
-*/
 @media (max-width:1000px){
   .cal{
     width:70%;
